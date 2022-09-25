@@ -1,0 +1,11 @@
+// rnso para criar a estrutura 
+
+import { StyleSheet } from 'react-native';
+import { THEME } from '../../theme/index'
+
+export const styles = StyleSheet.create({
+  container: {
+    flex:1,
+    backgroundColor: THEME.COLORS.BACKGROUND_800
+  }
+});
